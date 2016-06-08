@@ -201,23 +201,20 @@ orleans.codegen.cs
 
 # Bower
 # http://blog.silvabox.com/should-you-commit-bower-components-to-git/
-# unignore bootstrap folder
-!**/bower_components/bootstrap/
-!**/bower_components/jquery/
-!**/bower_components/oidc-token-manager/
-# ignore contents of bootstrap folder
-bower_components/bootstrap/*  
-bower_components/jquery/*
-bower_components/oidc-token-manager/*
+# ignore contents of bower_components
+**/bower_components/*
+# unignore xxx folder
+!**/bower_components/bootstrap
+!**/bower_components/jquery
+!**/bower_components/oidc-token-manager
+# ignore contents of xxx folder
+**/bower_components/bootstrap/*  
+**/bower_components/jquery/*
+**/bower_components/oidc-token-manager/*
 # except dist (uncomment the following line if you are using the dist files):
-!**/bower_components/bootstrap/dist/
-!**/bower_components/jquery/dist/
-!**/bower_components/oidc-token-manager/dist/
-# except less, js & fonts (uncomment the following 3 lines if you are using less ):
-# !**/bower_components/bootstrap/less/
-# !**/bower_components/bootstrap/js/
-# !**/bower_components/bootstrap/fonts/
-
+!**/bower_components/bootstrap/dist
+!**/bower_components/jquery/dist
+!**/bower_components/oidc-token-manager/dist
 
 
 # RIA/Silverlight projects

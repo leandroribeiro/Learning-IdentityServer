@@ -20,7 +20,8 @@ namespace IdentityServer
 
             app.UseIdentityServerBearerTokenAuthentication(new IdentityServerBearerTokenAuthenticationOptions
             {
-                Authority = "http://localhost:51761/",//Your url here
+                //Authority = "http://localhost:51761/",//Your url here
+                Authority = "https://localhost:44300/",
                 RequiredScopes = new[] { "api" }
             });
 
@@ -36,7 +37,7 @@ namespace IdentityServer
             {
                 IssuerUri = "urn:identity",
                 Factory = factory,
-                RequireSsl = false, //DO NOT DO THIS IN PRODUCTION
+                //RequireSsl = false, //DO NOT DO THIS IN PRODUCTION
 
                 LoggingOptions = new LoggingOptions
                 {

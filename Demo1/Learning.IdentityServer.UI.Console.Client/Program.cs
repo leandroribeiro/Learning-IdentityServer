@@ -44,7 +44,7 @@ namespace Learning.IdentityServer.UI.Console.Client
             var client = new HttpClient();
             client.SetBearerToken(response.AccessToken);
 
-            System.Console.WriteLine(client.GetStringAsync("http://localhost:36927/test").Result);
+            System.Console.WriteLine(client.GetStringAsync("http://localhost:51556/test").Result);
         }
     }
 }

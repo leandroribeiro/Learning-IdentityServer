@@ -1,7 +1,9 @@
 ﻿using System.Web.Http;
 using IdentityServer3.AccessTokenValidation;
+using Microsoft.Owin;
 using Owin;
 
+[assembly: OwinStartup(typeof(Learning.IdentityServer.API.Startup))]
 namespace Learning.IdentityServer.API
 {
     public class Startup

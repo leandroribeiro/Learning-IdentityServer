@@ -1,3 +1,4 @@
+
 https://github.com/scottbrady91/IdentityServer3-Example-Clients
 
 https://www.scottbrady91.com/Identity-Server/Identity-Server-3-Standalone-Implementation-Part-1
@@ -11,3 +12,9 @@ https://identityserver.github.io/Documentation/docsv2/configuration/clients.html
 https://www.scottbrady91.com/OpenID-Connect/OpenID-Connect-Endpoints
 
 https://www.simple-talk.com/dotnet/asp.net/introducing-single-sign-on-to-an-existing-asp.net-mvc-application/
+
+
+FLOWS
+
+	https://gist.github.com/jawadatgithub/638c11f08ecc0d76b05c#2-implicit
+	http://stackoverflow.com/questions/29683624/identityserver-flows
